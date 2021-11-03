@@ -44,8 +44,10 @@ main {
 }
 
 h1, h2 {
-    margin: 0;
+    margin-top: 40px;
     text-align: center;
+    /* width: 50px; */
+    overflow-wrap: normal;
 }
 
 .banner {
@@ -78,8 +80,22 @@ input {
     border-radius: 50%;
 }
 
+.options img {
+    width: 130px;
+    height: 110px;
+    /* border-radius: 50%; */
+}
+
 .images {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.images figcaption {
+    margin-top: 10px;
+    /* overflow-wrap: normal; */
 }
