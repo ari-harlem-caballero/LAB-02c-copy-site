@@ -8,9 +8,29 @@ body, html {
 body {
     height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 2fr 4fr 4fr;
+    grid-template-rows: 50px 50px 50px 1fr;
+    /* border: solid black 5px; */
 }
 
 * {
     box-sizing: border-box;
+}
+
+.banner {
+    border: solid black 1px;
+}
+
+header {
+    border: solid black 1px;
+    margin: 0;
+}
+
+main {
+    border: solid black 1px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+h1 {
+    margin: 0;
 }
