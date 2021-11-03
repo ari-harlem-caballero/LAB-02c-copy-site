@@ -42,7 +42,14 @@ main {
     /* border: solid black 1px; */
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: #FFE0CF;
+    background-color: white;
+}
+
+#demo {
+    background: #FFE0CF;
+    background: -moz-linear-gradient(top, #FFE0CF 0%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(top, #FFE0CF 0%, #FFFFFF 100%);
+    background: linear-gradient(to bottom, #FFE0CF 0%, #FFFFFF 100%);
 }
 
 h1, h2 {
