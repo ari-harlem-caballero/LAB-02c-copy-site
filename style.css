@@ -8,7 +8,7 @@ body, html {
 body {
     height: 100vh;
     display: grid;
-    grid-template-rows: 50px 50px 50px 1fr;
+    grid-template-rows: 50px 50px 60px 1fr;
     /* border: solid black 5px; */
 }
 
@@ -17,26 +17,35 @@ body {
 }
 
 .banner {
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background-color: #90C267;
 }
 
 header {
-    border: solid black 1px;
+    /* border: solid black 1px; */
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr 1fr;
 }
 
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
 main {
-    border: solid black 1px;
+    /* border: solid black 1px; */
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: #FFE0CF;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
+    text-align: center;
 }
 
 .banner {
@@ -47,6 +56,7 @@ h1 {
     width: 40px;
     height: 40px;
     margin-top: 5px;
+    margin-left: 30px;
 }
 
 input {
@@ -58,5 +68,18 @@ input {
 }
 
 #sign-in {
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 10px;
+    margin-left: 40px;
+}
+
+.featured img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
